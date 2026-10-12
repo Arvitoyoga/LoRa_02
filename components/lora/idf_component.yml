@@ -1,0 +1,10 @@
+version: "1.0.0"
+description: "Library LoRa sederhana untuk SX1276/77/78/79 (RA-02) di ESP-IDF"
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+  - esp32c3
+  - esp32c6
+dependencies:
+  idf: ">=5.2"

@@ -1,0 +1,37 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.extensionActivationMode": "always",
+  "cmake.configureOnOpen": false,
+  "cmake.configureOnEdit": false,
+  "cmake.automaticReconfigure": false,
+  "cmake.autoSelectActiveFolder": false,
+  "cmake.options.advanced": {
+    "build": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "hidden"
+    },
+    "launch": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "hidden"
+    },
+    "debug": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "hidden"
+    }
+  },
+  "clangd.path": "/home/arvito/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/arvito/Documents/Codes/LoRa_02/build"
+  ],
+  "idf.currentSetup": "/home/arvito/.espressif/v6.0.2/esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c3"
+  },
+  "idf.port": "/dev/ttyACM0",
+  "idf.flashType": "UART"
+}
